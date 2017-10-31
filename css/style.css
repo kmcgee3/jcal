@@ -1,0 +1,182 @@
+/*body and list style */
+body {margin:0;padding:10;background-color:#D3D3; border: 10px solid black; font-family: cursive; color: deeppink; }
+ul {margin: 0px; list-style:none;padding:0px; }
+#month-box,#day-box,#year-box {
+  margin: 2px; 
+}
+/*Console Box styling*/
+#console-box{
+  position:absolute;
+  top:60px; 
+  right:60px;
+  height:540px;
+  width:540px;
+  background-color:#000;
+  color: deeppink;
+  font-family: monospace;
+  padding:10px; 
+  font-size: 15px;
+
+}
+/*Paragraph styling(labels on left hand side)*/
+p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+	padding-top: 5px;
+	color: deeppink;
+	font-family: cursive;
+	font-size: 20px;
+	display:flex;
+}
+/*Styling for boxes begins*/
+#tumbly-box {
+ position:absolute; 
+ top: 60px;
+ left: 5%; 
+ width: 540px; 
+ height: 540px; 
+ background-color: black;
+ padding: 12px; 
+ display:flex;
+ flex-flow: column; 
+ align-content: center;
+ align-items: center;
+ justify-content:center; 
+}
+.tumbly-month {
+  display:flex;
+  width: 500px; 
+  height: 150px;
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  justify-content: center; 
+  align-items: center; 
+  align-content: center; 
+  margin: 0px; 
+  background-color: darkgray;
+	font-size: 30px;
+}
+.month-box {
+  height:45px;
+  width:50px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+	font-size: 30px;
+}
+
+.tumbly-days-tens {
+  list-style:none; 
+  display:flex;
+  width: 100px;
+  height: 200px; 
+  flex-flow: column; 
+  border: solid 1px; 
+  float: left; 
+  background-color: darkgray;
+	font-size: 30px;
+}
+.day-tens-box {
+  height:50px;
+  width:50px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+	font-size: 30px;
+}
+
+.tumbly-days-ones {
+  list-style:none; 
+  display:flex;
+  width: 250px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  clear: right;  
+  background-color: darkgray;
+	font-size: 30px;
+}
+.day-ones-box {
+  height:30px;
+  width:30px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+}
+
+.tumbly-years-thousands {
+  list-style:none; 
+  display:flex;
+  width: 75px;
+  height: 180px; 
+  flex-flow: column; 
+  border: solid 1px;
+  float:left; 
+  background-color: darkgray;
+	font-size: 30px;
+}
+.year-thousands-box {
+  height:50px;
+  width:50px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+}
+.tumbly-years-tens {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 180px; 
+  flex-flow: row wrap; 
+  border: solid 1px;
+  float:left; 
+  background-color: darkgray;
+	font-size: 30px;
+}
+.year-tens-box {
+  height:30px;
+  width:30px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+}
+.tumbly-years-ones {
+  list-style:none; 
+  display:flex;
+  width: 200px;
+  height: 180px; 
+  flex-flow: row wrap; 
+  border: solid 1px;
+  background-color: darkgray;
+	font-size: 30px;
+}
+.year-ones-box {
+  height:30px;
+  width:30px;
+  background: aqua;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid deeppink;
+}
+
+.selected {
+  background-color: deeppink;
+  font-weight: bold; 
+  color: black;
+	
+}
+
+
+
+
